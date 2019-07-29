@@ -4,7 +4,7 @@
 #include "seasocks/Server.h"
 #include "seasocks/WebSocket.h"
 #include "seasocks/StringUtil.h"
-#include <mysql.h>
+#include "mysql.cpp"
 #include <memory>
 #include <set>
 #include <string>
