@@ -40,7 +40,7 @@ int main()
 
     // Replace MySQL query with your query
 
-    mysql_query (connect,"DELETE FROM `chat` WHERE `id`=6");
+    mysql_query (connect,"insert into chat(id,name,address)values('data')");
 
      int i=0;
 
